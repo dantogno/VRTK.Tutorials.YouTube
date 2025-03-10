@@ -295,7 +295,6 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 8221407566299018280}
   - {fileID: -3683311251309287344}
   - {fileID: 3486470664829024681}
   - {fileID: 4311873627469267294}
@@ -304,6 +303,7 @@ MonoBehaviour:
   - {fileID: 131084980507619781}
   - {fileID: -1290310583885457198}
   - {fileID: -2040375429331325266}
+  - {fileID: 8221407566299018280}
   - {fileID: 5790462890110411107}
   - {fileID: -764033980336855077}
   - {fileID: 715807406115546271}
@@ -513,6 +513,7 @@ MonoBehaviour:
   - {fileID: 1526125324220099896}
   - {fileID: -4640469215709351665}
   - {fileID: 4361991972256230868}
+  - {fileID: 8566793897671230293}
   - {fileID: 3943298933957101708}
   - {fileID: -5113809477606294143}
   - {fileID: -576441142263910473}
@@ -823,10 +824,10 @@ MonoBehaviour:
   m_Name: MetaQuestTouchPlusControllerProfile Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Meta Quest Touch Plus Controller Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.metaquestplus
+  openxrExtensionStrings: XR_META_touch_controller_plus
+  company: Unity
   priority: 0
   required: 0
