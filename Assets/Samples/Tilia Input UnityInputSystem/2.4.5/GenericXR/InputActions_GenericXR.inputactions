@@ -144,7 +144,7 @@
                     "name": "Left Trigger Pressed",
                     "type": "Button",
                     "id": "7176fbf2-d63b-4d5d-8456-844dd623e3ab",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -162,7 +162,7 @@
                     "name": "Left Grip Pressed",
                     "type": "Button",
                     "id": "277fdbb0-245f-4345-90e9-53c99611e8a4",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -387,7 +387,7 @@
                     "name": "Right Grip Pressed",
                     "type": "Button",
                     "id": "706ad657-2fa5-46cd-b519-c53bf2de151d",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -512,6 +512,17 @@
                     "name": "",
                     "id": "fb3961b2-8f0d-4773-8757-37be521bb3c0",
                     "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Grip Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "95acb6f2-a531-4a53-a447-14af53fc2983",
+                    "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -688,6 +699,17 @@
                     "name": "",
                     "id": "e38c9430-02d7-469a-8b9b-93d0880ed6bd",
                     "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Grip Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "46101903-6747-46cf-a7fa-3523fcd68209",
+                    "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
