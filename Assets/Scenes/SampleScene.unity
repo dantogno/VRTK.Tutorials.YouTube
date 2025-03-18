@@ -344,7 +344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 72768792}
   m_Layer: 0
-  m_Name: VRTK_PreviousTutorialElements
+  m_Name: VRTK_Setup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -436,17 +436,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d59fbab1c4ee044c8113025ad94de18, type: 3}
---- !u!114 &121731841 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2884100002244128886, guid: fe6a616c6215faa47b11c459561a0e7f, type: 3}
-  m_PrefabInstance: {fileID: 936359952}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24f782494a9252d49a470301a5b749ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &169459421
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,6 +829,17 @@ Transform:
   - {fileID: 580717482}
   m_Father: {fileID: 677701939}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &306522195 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2884100000812411014, guid: fe6a616c6215faa47b11c459561a0e7f, type: 3}
+  m_PrefabInstance: {fileID: 936359952}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24f782494a9252d49a470301a5b749ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &327108957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,9 +1047,9 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &410139532 stripped
+--- !u!114 &375385091 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2884100002546494295, guid: fe6a616c6215faa47b11c459561a0e7f, type: 3}
+  m_CorrespondingSourceObject: {fileID: 2884100000674580290, guid: fe6a616c6215faa47b11c459561a0e7f, type: 3}
   m_PrefabInstance: {fileID: 936359952}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -1951,6 +1951,11 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   value: 0
+--- !u!1 &581909205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1410198640978997401, guid: d4d0211ba2f0e704bba928e06e1ab656, type: 3}
+  m_PrefabInstance: {fileID: 723924082}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &617848906 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6798345259485616301, guid: 4d59fbab1c4ee044c8113025ad94de18, type: 3}
@@ -2146,7 +2151,7 @@ PrefabInstance:
     - target: {fileID: 2402421270702372836, guid: c69d84a3cadb94e45af0210c52e5728d, type: 3}
       propertyPath: followSource
       value: 
-      objectReference: {fileID: 723924083}
+      objectReference: {fileID: 581909205}
     - target: {fileID: 2402421270702372836, guid: c69d84a3cadb94e45af0210c52e5728d, type: 3}
       propertyPath: selectionAction
       value: 
@@ -2490,11 +2495,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d0211ba2f0e704bba928e06e1ab656, type: 3}
---- !u!1 &723924083 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4950690087568533986, guid: d4d0211ba2f0e704bba928e06e1ab656, type: 3}
-  m_PrefabInstance: {fileID: 723924082}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &755021007
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3111,11 +3111,11 @@ PrefabInstance:
     - target: {fileID: 1057589323430487384, guid: f41134c56b8b59e4e8b8b9dfe7ecb0b3, type: 3}
       propertyPath: verticalAxis
       value: 
-      objectReference: {fileID: 121731841}
+      objectReference: {fileID: 375385091}
     - target: {fileID: 1057589323430487384, guid: f41134c56b8b59e4e8b8b9dfe7ecb0b3, type: 3}
       propertyPath: horizontalAxis
       value: 
-      objectReference: {fileID: 410139532}
+      objectReference: {fileID: 306522195}
     - target: {fileID: 1057589323430487384, guid: f41134c56b8b59e4e8b8b9dfe7ecb0b3, type: 3}
       propertyPath: directionOffset
       value: 
@@ -3234,7 +3234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1057589323430487387, guid: f41134c56b8b59e4e8b8b9dfe7ecb0b3, type: 3}
       propertyPath: m_Name
-      value: RightCursorRotator
+      value: LeftCursorRotator
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5053,11 +5053,11 @@ PrefabInstance:
     - target: {fileID: 4863131723591412725, guid: 61fc318271d29d14ca13e3d88f35c407, type: 3}
       propertyPath: verticalAxis
       value: 
-      objectReference: {fileID: 121731841}
+      objectReference: {fileID: 375385091}
     - target: {fileID: 4863131723591412725, guid: 61fc318271d29d14ca13e3d88f35c407, type: 3}
       propertyPath: horizontalAxis
       value: 
-      objectReference: {fileID: 410139532}
+      objectReference: {fileID: 306522195}
     - target: {fileID: 4863131723591412725, guid: 61fc318271d29d14ca13e3d88f35c407, type: 3}
       propertyPath: angleRange.maximum
       value: 25
@@ -5128,7 +5128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8162625474058450599, guid: 61fc318271d29d14ca13e3d88f35c407, type: 3}
       propertyPath: m_Name
-      value: RightPointerAction
+      value: LeftPointerAction
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10787,7 +10787,7 @@ GameObject:
   - component: {fileID: 1935300484}
   - component: {fileID: 1935300483}
   m_Layer: 0
-  m_Name: RightCursorRotatorLogic
+  m_Name: LeftCursorRotatorLogic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
